@@ -1,0 +1,106 @@
+body {
+    display: grid;
+    grid: "h h h"
+          "a b c"
+          "f f f";
+    grid-template-columns: 20% auto 20%;
+}
+
+header {
+    grid-area: h;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 15%;
+}
+
+main {
+    grid-area: b;
+    font-size: 150%;
+    text-align: justify;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+nav {
+    grid-area: a;
+    font-size: 85%;
+    word-wrap: break-word;
+    text-align: end;
+}
+
+aside {
+    grid-area: c;
+    font-size: 85%;
+    text-align: start;
+}
+
+footer {
+    grid-area: f;
+    padding: 25px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family:"Voces", sans-serif;
+    font-size: 500%;
+    font-style: normal;
+    font-weight: bold;
+    color:rgb(32, 32, 32);
+    line-height: 85%;
+    word-wrap: break-word;
+    padding-top: 10%;
+}
+
+span {display: inline-block;}
+
+h2 {
+    font-family:"Voces", sans-serif;
+    font-size: 125%;
+    font-style: normal;
+    font-weight: initial;
+    color:rgb(51, 51, 51);
+}
+
+p {
+    font-family: "Lusitana", serif;
+    font-style: normal;
+    font-weight: initial;
+    color: rgb(32, 32, 32);
+}
+
+q {
+    font-family: "Lusitana", serif;
+    font-size: 75%;
+    font-style: italic;
+    align-content: center;
+    padding-top: 150%;
+}
+
+pre {
+    padding-top: 50%;
+    align-content: center;
+}
+
+address {
+    font-family: "Voces", sans-serif;
+    font-size: small;
+    font-style: normal;
+    text-align: center;
+}
+
+a {
+    font-size: small;
+    font-style: normal;
+    text-decoration: none;
+}
+
+img {
+    box-align: center;
+}
+
+.audio-container {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 25px;
+}
